@@ -33,20 +33,26 @@ export default function Component() {
               </div>
             </Card>
             {/* Balance Card */}
-            <Card className="p-3 sm:p-4 bg-green-500 text-white shadow-md">
+            <Card className="p-6 sm:p-6 bg-[#009D34] text-white">
               <div className="flex items-center gap-2 sm:gap-3">
-                <div className="w-6 h-5 sm:w-8 sm:h-6 flex items-center justify-center flex-shrink-0">
+                <div className="w-7 h-8 sm:w-8 sm:h-6 flex items-center justify-center flex-shrink-0">
                   <img
                     src="/wallet-icon-final.png"
                     alt="Wallet"
-                    className="w-6 h-5 sm:w-8 sm:h-6 object-contain"
+                    className="w-7 h-8 sm:w-8 sm:h-6 object-contain"
                   />
                 </div>
-                <div className="flex-1 min-w-0">
-                  <p className="text-xs sm:text-sm opacity-90 mb-1">Saldo</p>
-                  <p className="text-lg sm:text-xl md:text-2xl font-semibold break-all">
+                <div className="flex-1 min-w-0 leading-none">
+                  {" "}
+                  {/* Super tight line height */}
+                  <p className="text-xs sm:text-sm opacity-90 m-0">
+                    Saldo
+                  </p>{" "}
+                  {/* Removed margin */}
+                  <p className="text-m sm:text-m md:text-2xl font-semibold m-0">
                     Rp 16.230.050,02
-                  </p>
+                  </p>{" "}
+                  {/* Removed margin */}
                 </div>
               </div>
             </Card>
@@ -131,33 +137,45 @@ export default function Component() {
                   Program yang Diikuti
                 </p>
                 <div className="flex gap-2 sm:gap-3 md:gap-4 justify-start flex-wrap">
-                  <div className="w-10 h-10 flex items-center justify-center">
+                  <div className="w-12 h-12 flex flex-col items-center justify-center">
                     <img
                       src="/JKM.png"
                       alt="JKM"
                       className="w-full h-full object-contain"
                     />
+                    <p className="mt-1 px-1.5 text-green-600 bg-green-100 text-xs font-light rounded-sm text-center w-full">
+                      JKM
+                    </p>
                   </div>
-                  <div className="w-10 h-10 flex items-center justify-center">
+                  <div className="w-12 h-12 flex flex-col items-center justify-center">
                     <img
                       src="/JKK.png"
                       alt="JKK"
                       className="w-full h-full object-contain"
                     />
+                    <p className="mt-1 px-1.5 text-green-600 bg-green-100 text-xs font-light rounded-sm text-center w-full">
+                      JKK
+                    </p>
                   </div>
-                  <div className="w-10 h-10 flex items-center justify-center">
+                  <div className="w-12 h-12 flex flex-col items-center justify-center">
                     <img
                       src="/JHT.png"
                       alt="JHT"
                       className="w-full h-full object-contain"
                     />
+                    <p className="mt-1 px-1.5 text-green-600 bg-green-100 text-xs font-light rounded-sm text-center w-full">
+                      JHT
+                    </p>
                   </div>
-                  <div className="w-10 h-10 flex items-center justify-center">
+                  <div className="w-12 h-12 flex flex-col items-center justify-center">
                     <img
                       src="/JP.png"
                       alt="JP"
                       className="w-full h-full object-contain"
                     />
+                    <p className="mt-1 px-1.5 text-green-600 bg-green-100 text-xs font-light rounded-sm text-center w-full">
+                      JP
+                    </p>
                   </div>
                 </div>
               </div>
