@@ -3,7 +3,7 @@ import { Card } from "@/components/ui/card";
 
 export default function Component() {
   return (
-    <div className="min-h-screen bg-gray-100 w-full overflow-x-hidden">
+    <div className="min-h-screen bg-gray-100 w-full overflow-x-hidden px-1 sm:px-2 md:px-3 pb-4">
       {/* Header */}
       <div className="flex items-center justify-between px-3 sm:px-4 md:px-6 py-3 sm:py-4 bg-white sticky top-0 z-10 shadow-sm">
         <ArrowLeft className="w-5 h-5 sm:w-6 sm:h-6 text-gray-600 cursor-pointer touch-manipulation" />
@@ -14,7 +14,7 @@ export default function Component() {
       </div>
 
       {/* Content */}
-      <div className="px-3 sm:px-4 md:px-6 py-3 sm:py-4 space-y-3 sm:space-y-4 pb-4 max-w-md mx-auto lg:max-w-lg">
+      <div className="w-full max-w-[calc(100%-0.5rem)] mx-auto py-3 sm:py-4 space-y-3 sm:space-y-4">
         {/* Card Selection */}
         <Card className="p-3 sm:p-4 bg-white shadow-sm">
           <div className="flex items-center justify-between">
@@ -50,7 +50,7 @@ export default function Component() {
         </Card>
 
         {/* Information Sections */}
-        <div className="space-y-0 px-1 sm:px-2">
+        <div className="space-y-0">
           {/* Status Kepesertaan */}
           <div className="py-3 sm:py-4">
             <p className="text-xs sm:text-sm text-gray-500 mb-1 sm:mb-2">
@@ -60,9 +60,7 @@ export default function Component() {
               Aktif
             </p>
           </div>
-
           <hr className="border-gray-200" />
-
           {/* Segmen Peserta */}
           <div className="py-3 sm:py-4">
             <p className="text-xs sm:text-sm text-gray-500 mb-1 sm:mb-2">
@@ -70,9 +68,7 @@ export default function Component() {
             </p>
             <p className="text-sm sm:text-base font-medium text-gray-800">PU</p>
           </div>
-
           <hr className="border-gray-200" />
-
           {/* Perusahaan Tempat Bekerja */}
           <div className="py-3 sm:py-4">
             <p className="text-xs sm:text-sm text-gray-500 mb-1 sm:mb-2">
@@ -82,9 +78,7 @@ export default function Component() {
               WIRA GLOBAL SOLUSI TBK
             </p>
           </div>
-
           <hr className="border-gray-200" />
-
           {/* Jumlah Tenaga Kerja */}
           <div className="py-3 sm:py-4">
             <p className="text-xs sm:text-sm text-gray-500 mb-1 sm:mb-2">
@@ -92,9 +86,7 @@ export default function Component() {
             </p>
             <p className="text-sm sm:text-base font-medium text-gray-800">4</p>
           </div>
-
           <hr className="border-gray-200" />
-
           {/* Iuran Terakhir */}
           <div className="py-3 sm:py-4">
             <p className="text-xs sm:text-sm text-gray-500 mb-1 sm:mb-2">
@@ -104,9 +96,7 @@ export default function Component() {
               01-05-2025
             </p>
           </div>
-
           <hr className="border-gray-200" />
-
           {/* Pembayaran Iuran Terakhir */}
           <div className="py-3 sm:py-4">
             <p className="text-xs sm:text-sm text-gray-500 mb-1 sm:mb-2">
@@ -116,41 +106,41 @@ export default function Component() {
               05-05-2025
             </p>
           </div>
-
           <hr className="border-gray-200" />
-
+          {/* Program yang Diikuti */}
           {/* Program yang Diikuti */}
           <div className="py-3 sm:py-4">
             <p className="text-xs sm:text-sm text-gray-500 mb-3 sm:mb-4">
               Program yang Diikuti
             </p>
-            <div className="flex gap-2 sm:gap-3 md:gap-4 justify-start overflow-x-auto pb-2">
-              {/* Program Icons */}
+            <div className="flex gap-2 sm:gap-3 md:gap-4 justify-start overflow-x-auto pb-1">
+              {" "}
+              {/* Changed pb-2 to pb-1 */}
               <div className="w-10 h-10 flex items-center justify-center">
                 <img
                   src="/JKM.png"
-                  alt="Wallet"
+                  alt="JKM"
                   className="w-full h-full object-contain"
                 />
               </div>
               <div className="w-10 h-10 flex items-center justify-center">
                 <img
                   src="/JKK.png"
-                  alt="Wallet"
+                  alt="JKK"
                   className="w-full h-full object-contain"
                 />
               </div>
               <div className="w-10 h-10 flex items-center justify-center">
                 <img
                   src="/JHT.png"
-                  alt="Wallet"
+                  alt="JHT"
                   className="w-full h-full object-contain"
                 />
               </div>
               <div className="w-10 h-10 flex items-center justify-center">
                 <img
                   src="/JP.png"
-                  alt="Wallet"
+                  alt="JP"
                   className="w-full h-full object-contain"
                 />
               </div>
