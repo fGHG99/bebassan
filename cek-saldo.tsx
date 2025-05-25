@@ -26,7 +26,7 @@ export default function Component() {
                     Pilih Nomor Kartu Peserta (KPJ)
                   </p>
                   <p className="text-sm sm:text-base font-medium text-gray-800 truncate">
-                    O5KB00188856
+                    O5KB0018856
                   </p>
                 </div>
                 <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5 text-green-600 flex-shrink-0 ml-2" />
