@@ -50,7 +50,7 @@ export default function Component() {
                   </p>{" "}
                   {/* Removed margin */}
                   <p className="text-m sm:text-m md:text-2xl font-semibold m-0">
-                    Rp 16.230.050,02
+                    Rp 18.588.151,79
                   </p>{" "}
                   {/* Removed margin */}
                 </div>
@@ -113,7 +113,7 @@ export default function Component() {
                   Iuran Terakhir
                 </p>
                 <p className="text-sm sm:text-base font-medium text-gray-800">
-                  01-05-2025
+                  01-25-2025
                 </p>
               </div>
 
@@ -125,7 +125,7 @@ export default function Component() {
                   Pembayaran Iuran Terakhir
                 </p>
                 <p className="text-sm sm:text-base font-medium text-gray-800">
-                  05-05-2025
+                  06-11-2025
                 </p>
               </div>
 
