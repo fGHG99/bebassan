@@ -113,7 +113,7 @@ export default function Component() {
                   Iuran Terakhir
                 </p>
                 <p className="text-sm sm:text-base font-medium text-gray-800">
-                  01-25-2025
+                  01-11-2025
                 </p>
               </div>
 
